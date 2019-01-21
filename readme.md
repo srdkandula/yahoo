@@ -9,11 +9,15 @@ As this service is not accepting CORS request, I can't use simple XMLHttpRequest
 2)Used this plugin for CORS request : https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en-US.
 In this, I made an  XMLHttpRequest and fetch the server response and used it to find largest city and capital. To test this please open cors.html in browser. Above plugin needs to be installed and enabled for CORS request to work.
 
-3)Test cases handled: 
-     1) Server response status code (only for cors approach).
-     2) On ready state (only for cors approach).
-     3) Invalid State input.
-     4) Blank State input.
-     5) Case Sensitivity of the Input.
-     6) Trim Leading and Trailing spaces.
-     7) Undefined Largest City.
+Test cases handled:
+
+1. Server response status code (cors approach)
+
+2. On ready state (cors approach)
+
+3. Invalid State input
+
+4. Blank State input
+5. Case Sensitivity of the Input.
+6. Trim Leading and Trailing spaces
+7. Undefined Largest City
